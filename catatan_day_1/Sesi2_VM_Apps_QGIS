@@ -1,0 +1,27 @@
+# QGIS
+
+1. Fungsi Qgis dalam Mudel Tsunami dan Atmosfer
+2. Jenis Data yg di Support nc, asc, geotif, dsb
+3. Dengan visualisasi dapat dilakukan analisa hasil dari modeling dengan disandingkan atau di overlay dengan data seperti lokasi PLTG, lokasi PLTG, Lokasi Patahan, Waktu Gelombang sampai suatu lokasi, 
+4. Data yg ditampilkan atau di open di qgis akan tampil hitam putih, dan harus dilakukan setting warna/coloring. Ditambah juga xyz layer untuk basemapnya.
+5. Untuk POI lokasi yang diplot di qgis bisa dipilih di simbology di atur simbol yg diinginkan
+6. tools attrib table digunakan untuk membuka informasi dari suatu data dalam bentuk tabel,
+7. Layouting di qgis :
+  - Atur scale (bisa zoom in / zoom out)
+  - Menambah data koordinat di menu grid coordinate
+  - Frame style Zebra
+  - Check Draw Coordinates
+  - Bisa tambah text
+  - Bisa tambah legend
+8. Qgis ini sangat cocok untuk membuat dokumen reporting
+
+dari peserta ada pertanyaan untuk tsunawi ada kendala untuk post prosessing membutuhkan resource yg besar, sehingga untuk penggunaan di VM Qgis sangat diperlukan
+
+# Octave
+- octave adalah matlab versi opensource
+- octave bisa dijalankan CLI dan GUI
+- untuk menjalankan octave kadang butuh import library seperti python
+- dan kalau tidak tersedia harus install package
+- dapat di aplikasikan untuk kegiatan post dan pre processing untuk comcot
+- coba running plot_zmax.m dari comcot untuk dijalankan lewat octave, hasilnya outpput tidak 100 sama dengan hasil dari matlab seperti judul tidak ada dan beberapa text informasi hilang
+- 
